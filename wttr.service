@@ -1,0 +1,11 @@
+[Unit]
+Description=shows weather service
+
+[Service]
+Type=simple
+ExecStart=/home/vagrant/wttr
+WorkingDirectory=/home/vagrant
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
