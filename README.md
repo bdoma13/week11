@@ -1,6 +1,6 @@
 # How to make it work
 step 1)
-cp wttr <where you want the weather information to be saved>
+cp wttr 'location of directory where you want it to be saved'
 
 step 2)
 sudo cp wttr.service wttr.timer /etc/systemd/system
